@@ -40,5 +40,4 @@ object ScalaBook {
   }
   println("The difference between "+ 9 + " and " + 5 + " is " + dif(9,5))
 
-
 }
