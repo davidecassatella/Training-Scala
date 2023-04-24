@@ -40,4 +40,23 @@ object ScalaBook {
   }
   println("The difference between "+ 9 + " and " + 5 + " is " + dif(9,5))
 
+
+  // IMPERTIVE VS FUNCTIONAL PROGRAMMING
+
+  def printArgsImperative(args: Array[String]): Unit = {
+    var i = 0
+    while (i < args.length) {
+      println(args(i))
+      i += 1
+    }
+  }
+
+  def printArgsFunctional1(args: Array[String]): Unit ={
+    for (arg <- args)
+      println(arg)
+  }
+
+  def printArgsFunctional2(args: Array[String]): Unit ={
+    args.foreach(print)
+  }
 }
