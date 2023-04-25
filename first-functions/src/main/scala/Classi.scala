@@ -1,3 +1,5 @@
+package training
+
 import jdk.jshell.spi.ExecutionControl.ClassInstallException
 
 /*
@@ -13,7 +15,7 @@ class Class_name{
 class Classi{
   var campo1 = 0
   private var campo2 = 0
-}
+
 
   val oggetto1 = new Classi
   val oggetto2 = new Classi
@@ -49,12 +51,12 @@ class Point2(var x: Int = 0, var y: Int = 0) {
 
 class Point3(val x: Int, val y: Int)        // I parametri del costruttore primario con val e var sono pubblici.
   val point3 = new Point3(1, 2)             // Poiché val è immutabile, non è possibile scrivere quanto segue.
-  point3.x = 3                              // <-- Non compila, perché x è immutabile
+  //point3.x = 3                              // <-- Non compila, perché x è immutabile
 
 
 class Point4(x: Int, y: Int)                // I parametri senza val o var sono valori privati, visibili solo all'interno della classe.
   val point4 = new Point4(1, 2)
-  point4.x                                  // <-- Non compila, perché x e y sono variabili private e quindi non accessibili al di fuori della classe
+  //point4.x                                  // <-- Non compila, perché x e y sono variabili private e quindi non accessibili al di fuori della classe
 
 
 
@@ -113,14 +115,12 @@ class GFG
     println("Welcome! Anonymous object");
   }
 }
-object MainAnonymous
-{
+object MainAnonymous {
 
   // Metodo Main
-  def main(args: Array[String])
-  {
+  def main(args: Array[String]) {
 
     // Crea un Anonymous object della classe GFG
     new GFG().display();
   }
-}
+}}
