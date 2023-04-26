@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-functions.iml" filepath="$PROJECT_DIR$/.idea/modules/first-functions.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-functions/.idea/modules/first-functions-build.iml" filepath="$PROJECT_DIR$/first-functions/.idea/modules/first-functions-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScalaRock/.idea/modules/scalarock-build.iml" filepath="$PROJECT_DIR$/ScalaRock/.idea/modules/scalarock-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/training-scala.iml" filepath="$PROJECT_DIR$/.idea/modules/training-scala.iml" />
