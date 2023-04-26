@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" packagePrefix="training" />
       <sourceFolder url="file://$MODULE_DIR$/../../functions/src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../rockthejvm/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../functional-programming/src/main/scala/com.functionalprogramming" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../project/target" />
     </content>

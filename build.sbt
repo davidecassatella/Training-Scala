@@ -4,6 +4,7 @@ ThisBuild / name := "training-scala"
 ThisBuild / organization := "com.davecass"
 
 lazy val functions = (project in file("functions"))
+lazy val functionalprogramming = (project in file("functional-programming"))
 lazy val rockthejvm = (project in file("rockthejvm")).settings(
   assembly / mainClass := Some("com.rockthejvm.RockthejvmSBTApp"),
   libraryDependencies += Dependencies.typelevel %% "cats-effect" % "3.3.0"
